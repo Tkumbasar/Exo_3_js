@@ -16,5 +16,37 @@
   <div class="color red" ></div>
   <div class="color blue" ></div>
 </div>
+
+
+
+<script>
+
+let texte = document.getElementById('text');
+
+console.log(texte);
+
+let div1 = document.querySelector('.green');
+let div2 = document.querySelector('.red');
+let div3 = document.querySelector('.blue');
+
+console.log(div1);
+console.log(div2);
+console.log(div3);
+
+div1.addEventListener('click',function(){
+  texte.style.color = 'green';
+})
+
+div2.addEventListener('click',function(){
+  texte.style.color = 'red';
+})
+
+div3.addEventListener('click',function(){
+  texte.style.color = 'blue';
+})
+
+
+
+</script>
 </body>
 </html>
